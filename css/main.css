@@ -1,0 +1,25 @@
+li {
+	list-style-type: none;
+}
+picture img {
+	width: 100%;
+}
+#mainPictures {
+	margin: 100px 100px 100px 100px;
+}
+
+#mainPictures {
+	-webkit-column-count: 1;
+	width:1000px;
+	margin: 0 auto;
+}
+@media (min-width:600px){
+	#mainPictures {
+		-webkit-column-count: 2;
+	}
+}
+@media (min-width:1024px) {
+	#mainPictures {
+		-webkit-column-count: 3;
+	}
+}
